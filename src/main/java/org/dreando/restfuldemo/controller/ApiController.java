@@ -56,4 +56,10 @@ public class ApiController {
     public Collection<Company> getCompanies() {
         return dataProvider.getCompanies();
     }
+    
+    @ResponseBody
+    @RequestMapping("api/download")
+    public void Download(@RequestParam String ){
+    	
+    }
 }
